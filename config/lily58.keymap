@@ -78,10 +78,10 @@
 
             display-name = "Numpad";
             bindings = <
-&trans        &kp F1        &kp F2        &kp F3        &kp F4             &kp F5                                                  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9   &trans  &trans           &trans
-&bt BT_CLR    &out OUT_TOG  &trans        &kp LS(F10)   &kp LS(F9)         &kp LC(LS(F10))                                         &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6   &trans  &trans           &trans
-&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &win_screenshot    &mac_screenshot                                         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &trans  &trans           &trans
-&trans        &trans        &trans        &kp K_MUTE    &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &kp NUMBER_0  &kp NUMBER_0  &trans         &trans  &kp LS(LC(TAB))  &kp LC(TAB)
+&trans        &kp F1        &kp F2        &kp F3        &kp F4             &kp F5                                                  &trans        &trans        &trans         &trans  &trans           &trans
+&bt BT_CLR    &out OUT_TOG  &trans        &kp LS(F10)   &kp LS(F9)         &kp LC(LS(F10))                                         &trans        &kp N7        &kp N8         &kp N9  &trans           &trans
+&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &win_screenshot    &mac_screenshot                                         &trans        &kp N4        &kp N5         &kp N6  &trans           &trans
+&trans        &trans        &trans        &kp K_MUTE    &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &kp NUMBER_0  &kp N1        &kp N2         &kp N3  &kp LS(LC(TAB))  &kp LC(TAB)
                                           &trans        &trans             &trans           &trans              &trans             &trans        &kp LA(LEFT)  &kp LA(RIGHT)
             >;
 
