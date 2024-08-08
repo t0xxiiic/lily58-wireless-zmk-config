@@ -29,14 +29,14 @@
     };
 
     behaviors {
-        tap_hold_170: tap_hold_170 {
+        tap_hold_190: tap_hold_190 {
             compatible = "zmk,behavior-hold-tap";
-            label = "TAP_HOLD_170";
+            label = "TAP_HOLD_190";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
             flavor = "tap-preferred";
-            tapping-term-ms = <170>;
+            tapping-term-ms = <190>;
         };
 
         shift_caps_dance: shift_caps_dance {
@@ -60,11 +60,11 @@
 
             display-name = "t0xxiiic";
             bindings = <
-&kp ESC            &tap_hold_170 EXCL NUMBER_1  &tap_hold_170 AT NUMBER_2  &tap_hold_170 HASH NUMBER_3  &tap_hold_170 DOLLAR NUMBER_4  &tap_hold_170 PERCENT N5                                                 &tap_hold_170 PIPE NUMBER_6  &tap_hold_170 AMPS BACKSLASH             &tap_hold_170 ASTRK N8                     &tap_hold_170 CARET N9  &kp DEL   &kp BACKSPACE
-&kp TAB            &kp Q                        &kp W                      &kp E                        &kp R                          &kp T                                                                    &kp Y                        &kp U                                    &kp I                                      &kp O                   &kp P     &kp GRAVE
-&shift_caps_dance  &kp A                        &kp S                      &kp D                        &kp F                          &kp G                                                                    &kp H                        &kp J                                    &kp K                                      &kp L                   &kp SEMI  &kp SQT
-&kp LEFT_CONTROL   &kp Z                        &kp X                      &kp C                        &kp V                          &kp B                     &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp N                        &kp M                                    &kp COMMA                                  &kp DOT                 &kp FSLH  &kp RSHFT
-                                                                           &kp LALT                     &kp LGUI                       &mo 1                     &kp SPACE               &kp RET                &mo 2                        &tap_hold_170 LC(LEFT_ARROW) LEFT_ARROW  &tap_hold_170 LC(RIGHT_ARROW) RIGHT_ARROW
+&kp ESC            &tap_hold_190 EXCL NUMBER_1  &tap_hold_190 AT NUMBER_2  &tap_hold_190 HASH NUMBER_3  &tap_hold_190 DOLLAR NUMBER_4  &tap_hold_190 PERCENT N5                                                                                                &tap_hold_190 PIPE NUMBER_6  &tap_hold_190 AMPS N7                    &tap_hold_190 ASTRK N8                     &tap_hold_190 CARET N9   &kp N0               &kp BACKSPACE
+&kp TAB            &kp Q                        &kp W                      &kp E                        &kp R                          &kp T                                                                                                                   &kp Y                        &kp U                                    &kp I                                      &kp O                    &kp P                &mt NON_US_BACKSLASH GRAVE
+&shift_caps_dance  &kp A                        &kp S                      &kp D                        &kp F                          &kp G                                                                                                                   &kp H                        &kp J                                    &kp K                                      &kp L                    &mt COLON SEMICOLON  &mt SQT DOUBLE_QUOTES
+&kp LEFT_CONTROL   &kp Z                        &kp X                      &kp C                        &kp V                          &kp B                     &tap_hold_190 LEFT_BRACKET LEFT_PARENTHESIS    &tap_hold_190 RIGHT_BRACKET RIGHT_PARENTHESIS  &kp N                        &kp M                                    &mt LESS_THAN COMMA                        &mt GREATER_THAN PERIOD  &mt QUESTION SLASH   &kp RSHFT
+                                                                           &kp LALT                     &kp LGUI                       &mo 1                     &kp SPACE                                      &kp RET                                        &mo 2                        &tap_hold_190 LC(LEFT_ARROW) LEFT_ARROW  &tap_hold_190 LC(RIGHT_ARROW) RIGHT_ARROW
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -113,11 +113,11 @@
         wow_layer {
             display-name = "wow";
             bindings = <
-&kp ESC           &tap_hold_170 EXCL NUMBER_1  &tap_hold_170 AT NUMBER_2  &tap_hold_170 HASH NUMBER_3  &tap_hold_170 DOLLAR NUMBER_4  &tap_hold_170 PERCENT N5                                                                        &tap_hold_170 PIPE NUMBER_6  &tap_hold_170 AMPS BACKSLASH             &tap_hold_170 ASTRK N8                     &tap_hold_170 CARET N9  &to 0     &kp BACKSPACE
+&kp ESC           &tap_hold_190 EXCL NUMBER_1  &tap_hold_190 AT NUMBER_2  &tap_hold_190 HASH NUMBER_3  &tap_hold_190 DOLLAR NUMBER_4  &tap_hold_190 PERCENT N5                                                                        &tap_hold_190 PIPE NUMBER_6  &tap_hold_190 AMPS BACKSLASH             &tap_hold_190 ASTRK N8                     &tap_hold_190 CARET N9  &to 0     &kp BACKSPACE
 &kp TAB           &kp Q                        &kp W                      &kp E                        &kp R                          &kp T                                                                                           &kp Y                        &kp U                                    &kp I                                      &kp O                   &kp P     &kp GRAVE
 &kp LSHFT         &kp A                        &kp S                      &kp D                        &kp F                          &kp G                                                                                           &kp H                        &kp J                                    &kp K                                      &kp L                   &kp SEMI  &kp SQT
-&kp LEFT_CONTROL  &kp Z                        &kp X                      &kp C                        &kp V                          &kp B                     &tap_hold_170 LEFT_PARENTHESIS LEFT_BRACKET    &kp RIGHT_PARENTHESIS  &kp N                        &kp M                                    &kp COMMA                                  &kp DOT                 &kp FSLH  &kp RSHFT
-                                                                          &kp BSLH                     &kp FSLH                       &kp GRAVE                 &kp SPACE                                      &kp RET                &mo 2                        &tap_hold_170 LC(LEFT_ARROW) LEFT_ARROW  &tap_hold_170 LC(RIGHT_ARROW) RIGHT_ARROW
+&kp LEFT_CONTROL  &kp Z                        &kp X                      &kp C                        &kp V                          &kp B                     &tap_hold_190 LEFT_PARENTHESIS LEFT_BRACKET    &kp RIGHT_PARENTHESIS  &kp N                        &kp M                                    &kp COMMA                                  &kp DOT                 &kp FSLH  &kp RSHFT
+                                                                          &kp BSLH                     &kp FSLH                       &kp GRAVE                 &kp SPACE                                      &kp RET                &mo 2                        &tap_hold_190 LC(LEFT_ARROW) LEFT_ARROW  &tap_hold_190 LC(RIGHT_ARROW) RIGHT_ARROW
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
