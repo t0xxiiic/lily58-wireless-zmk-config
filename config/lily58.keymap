@@ -80,10 +80,10 @@
 
             display-name = "Numpad";
             bindings = <
-&bt BT_CLR    &kp F1        &kp F2        &kp F3        &kp F4             &kp F5                                                  &kp ASTERISK   &kp N7        &kp N8         &kp N9   &trans           &trans
-&trans        &none         &trans        &kp LS(F10)   &kp LS(F9)         &kp LC(LS(F10))                                         &kp BACKSLASH  &kp N4        &kp N5         &kp N6   &trans           &trans
-&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &win_screenshot    &mac_screenshot                                         &kp PLUS       &kp N1        &kp N2         &kp N3   &trans           &trans
-&out OUT_TOG  &trans        &trans        &kp K_MUTE    &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &kp MINUS      &kp COMMA     &kp N0         &kp DOT  &kp LS(LC(TAB))  &kp LC(TAB)
+&bt BT_CLR    &kp F1        &kp F2        &kp F3        &kp F4             &kp F5                                                  &kp ASTERISK   &kp EQUAL     &kp N0         &trans  &trans           &trans
+&trans        &none         &trans        &kp LS(F10)   &kp LS(F9)         &kp LC(LS(F10))                                         &kp BACKSLASH  &kp N7        &kp N8         &kp N9  &trans           &trans
+&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &win_screenshot    &mac_screenshot                                         &kp PLUS       &kp N4        &kp N5         &kp N6  &trans           &trans
+&out OUT_TOG  &trans        &trans        &kp K_MUTE    &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &kp MINUS      &kp N1        &kp N2         &kp N3  &kp LS(LC(TAB))  &kp LC(TAB)
                                           &trans        &trans             &trans           &trans              &trans             &kp EQUAL      &kp LA(LEFT)  &kp LA(RIGHT)
             >;
 
